@@ -1,0 +1,38 @@
+.container{
+    height: 500px;
+    width:  500px;
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: aqua;
+    border: 2px solid orange;
+
+    /* transition: 0.5s; */
+
+    /* transition-property: background-color; */
+    /* transition-property: all; */  /* Not a Good Practice */
+
+    /* transition-delay: 5s; */
+
+    /* transition: all 1s ease ; */
+    /*  Property duration timing-function delay */
+
+    transition: transform 3s ease-out;
+}
+
+.box:hover{
+    /* background-color: brown;
+    transform: rotate(45deg); */
+
+    /* transform: translateX(500px); */
+
+    /* transform: translateX(510px) rotate(360deg) scale(2); */
+
+    transform: translateZ(10px) scale(3);
+}

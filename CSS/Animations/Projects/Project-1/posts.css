@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    max-width: 1000px;
+    /* border: 3px solid red; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+}
+.childgrid1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 100%;
+}
+.header{
+    padding: 0 2rem;
+}
+#subs{
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    width: fit-content;
+}
+#title{
+    align-self: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+p{
+    /* text-align: justify; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.7rem;
+}
+#search{
+    width: fit-content;
+    align-self: center;
+    position: relative;
+    left: 75%;
+}
+#logo{
+    width: 15%;
+}
+.content{
+   display: grid;
+   height: auto;
+   grid-template-columns: 600px 1fr; 
+   grid-gap: 20px;
+   padding: 0 2rem;
+}
+.blog-post-box-text{
+    border: 2px solid grey;
+    padding: 5px 3px 10px 0;
+}
+.sub-heading-1 pre{
+    border: 2px solid grey;
+    padding: 5px 0 5px 0;
+}
+.sub-heading-2 ul{
+    margin-left: 5%;
+    list-style-type: disc;
+}
+.sub-heading-2 ol{
+    margin-left: 5%;
+}
+.about{
+    background-color: aliceblue;
+    padding: 10px 10px;
+    margin-right: 10%;
+}
+.archives, .elsewhere{
+    padding: 0 10px;
+}
+.archives-list li, .elsewhere-list li{
+    list-style-type: none;
+}
+.archives-list a, .elsewhere-list a{
+    color: blue;
+    line-height: 1.3rem;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.footer{
+    /* border: 1px solid blue; */
+    padding: 0 2rem;
+    height: 6rem;
+}
+.footer-older-post, .footer-newer-post{
+    display: inline-block;
+    border: 1px solid grey;
+    color: gray;
+    border-radius: 20px;
+    margin-top: 2rem;
+    padding: 5px 5px;
+    transition: 0.2s ease-out;
+}
+.footer-older-post{
+    border: 1px solid blue;
+    color: blue;
+}
+.footer-newer-post:hover{
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
