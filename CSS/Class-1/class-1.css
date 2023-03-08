@@ -1,0 +1,31 @@
+/* Element/Tag Selector */
+/* p {
+        color: red;
+        font-size: larger;
+      } */
+/* Id Selector */
+/* #second {
+        color: purple;
+      } */
+/* Class Selector */
+/* .third {
+        color: blue;
+      } */
+/* .small {
+        font-size: small;
+      }
+      .larger {
+        font-size: larger;
+      } */
+/* #first-button{
+        color: violet;
+      } */
+button:hover {
+  color: red;
+}
+a:hover {
+  color: green;
+}
+.link-color:hover {
+  color: black;
+}

@@ -1,0 +1,107 @@
+Tag --> How to render different elements
+
+----------------------- Text Element ------------------------------
+
+Block Elements                                          Inline Elements
+--------------                                          ---------------
+<p>                                                     Use to differentiate for specific    
+<h1></h1>                                               part of paragraph  
+<ul>
+
+Documentation :-- mdn web docs
+
+Empty Tag
+----------
+<br/>
+<img/>
+<input/>
+
+List:
+-----
+1. ordered
+2. Unordered
+3. Description List (H/W)
+
+Attribute
+----------
+The provide additional info about elements/
+
+Homework---
+---------
+1. Description List
+2. Exception of HTML element with attributes
+3. What happens when we close an empty tag?
+
+ALUM10
+
+Tag:
+----
+1. target="_blank" : for open hyper link in new tab
+2. <hr> : For printing horizontal line
+3. <pre></pre> : To print exactly same as written in HTML
+4. <span></span> 
+5. <b></b>
+6. border: 1px solid black;
+7. border-collapse: collapse;
+8. <figcaption></figcaption>
+9. <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+
+H/W
+1. Why H1 to H6 only?
+2. Quatation & Citations tags (blockquote, q, cite, address, abbr)
+3. How to add a favicon?
+4. One full HTML Project
+5. One table
+
+To bookmark any section in html page --
+----------------------------------------
+1. give id to that section :--
+   <h3 id="resources">Resources</h3>
+2. Then "--
+   <a href="#resources">Go To Resources</a>
+3. To scrolling smooth in style :-
+   html{
+            scroll-behavior: smooth;
+        }
+
+Semantic Tags
+--------------
+Prodives a meaning
+div & span --> Non-semantic
+table, form, section, article, aside, figure, figcaption, header, footer, main, nav --> Semantic
+
+<section></section> -- defines section in your document
+<header></header> -- introductory part
+<footer></footer>
+<nav></nav> -- for navigation to other link as well as in same page
+<aside></aside> -- for showing some indirectly related surrounding conetnt (ads/notes/summary) at the side of the page
+
+
+What's the difference between a header and an H1 element?
+------------------------------------------------------------
+
+The <header> tag in HTML is used to define the header for a document or a section.
+
+-- The header tag contains information related to the title and heading of the related content.
+-- The <header> element is intended to usually contain the section’s heading (an h1-h6 element or an <hgroup> element), but this is not required.
+-- The <header> element can also be used to wrap a section’s table of contents, a search form, or any relevant logos.
+-- The <header> tag is a new tag in HTML5 and it requires a starting tag as well as an end tag.
+-- There can be several <header> elements in one document.
+-- A <header> tag cannot be placed within a <footer>, <address> or another <header> element.
+
+H1 Tag
+
+These six heading elements are H1, H2, H3, H4, H5, and H6; with H1 being the highest level and H6 the least.
+
+Importance of Heading :
+
+-- Search Engines use headings for indexing the structure and content of the webpage.
+-- Headings are used for highlighting important topics.
+-- They provide valuable information and tell us about the structure of the document
+
+
+Using header or footer tag twice?
+---------------------------------
+A header element is intended to usually contain the section's heading (an h1–h6 element or an hgroup element), but this is not required. The header element can also be used to wrap a section's table of contents, a search form, or any relevant logos.

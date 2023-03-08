@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table_H.W.</title>
+    <link rel="icon" href="/table.png" type="favicon" title="Tables Screenshot">
+    <Style>
+        
+       table, tr, td, th {font-family: 'Times New Roman', Times, serif;}
+       table, tr, td, th {text-align: center;}
+        /* #yellow{background-color: rgb(237, 237, 182);} */
+        /* #green{background-color: rgb(174, 231, 174);} */
+        /* #purple{background-color: rgb(165, 185, 245);} */
+       #yellow{background-color: orange;}
+        
+    </Style>
+</head>
+<body>
+    <table border="1">
+    <thead>
+        <tr>
+            <th rowspan="3"> Day </th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2" id="yellow"> 8:00 a.m.</td>
+            <td rowspan="2" id="purple"> 5:00 p.m.</td>
+            <td>Introduction To XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3"> Tuesday</td>
+            <td id="yellow">8:00 a.m.</td>
+            <td id="yellow">11:00 a.m.</td>
+            <td rowspan="1">Xpath</td>
+        </tr>
+        <tr>
+            <td id="yellow">11:00 a.m.</td>
+            <td id="green">2:00 p.m.</td>
+            <td rowspan="2">XSL Transformations</td>
+        </tr>
+        <tr>
+            <td id="green">2:00 p.m.</td>
+            <td id="purple">5:00 p.m.</td>
+
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td id="yellow">8:00 a.m.</td>
+            <td id="green">12:00 p.m.</td>
+            <td>XML Formatting Objects</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>

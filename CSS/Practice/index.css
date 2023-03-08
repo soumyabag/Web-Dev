@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-color: rgba(186, 181, 174, 0.41);
+}
+.wrapper{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  background-color: whitesmoke;
+  border-radius: 5%;
+  box-shadow: 1px 1px 3px gray;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  position: relative;
+ 
+  transform: translateX(60%) translateY(45%);
+}
+.mug-img{
+  border-radius: 17px 0 0 17px;
+  transform: translateX(-1px);
+
+  /* object-fit: cover; */
+
+}
+
+.container-1{
+  height: 305px;
+}
+.container-2{
+  padding-right: 15px;
+  padding-left: 20px;
+}
+.sub-heading{
+  position: relative;
+  top: -0.4rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgb(62, 60, 60);
+  
+}
+.heading {
+  font-family: 'Fraunces', serif;  
+}
+.desc {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(62, 60, 60);
+}
+.selling-price{
+  
+  font-family: 'Fraunces', serif; 
+  font-weight: 900;
+  font-size: 1.4rem;
+  color: rgb(5, 106, 73);
+}
+.mrp-price{
+  position: relative;
+  top: -21px;
+  left: 63px;
+  color: rgb(62, 60, 60);
+  text-decoration: line-through;
+  font-family: 'Montserrat', sans-serif;
+}
+.add-to-card{
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: rgb(5, 106, 73);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transform: translateY(-10px);
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;;
+}
+.card-img{
+  transform: translateX(-8px);
+}
