@@ -1,0 +1,23 @@
+html{
+    background-color: #e6e6e6;;
+}
+.sign_up{
+    height: 372px;
+    width: 516px;
+    position: relative;
+    left: 27%;
+    top: 86px;
+    border-radius: 18px;
+    background-color: white;
+}
+.signup_image{
+    position: relative;
+    left: 63%;
+    top: 29%;
+}
+.signup_heading{
+    margin: 15%;
+    position: relative;
+    bottom: 49%;
+    right: 2%;
+}
